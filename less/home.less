@@ -39,4 +39,17 @@ img {
 }
 .footer {
 	padding-bottom:40px;
+
+	.builder {
+		.type-size(12px);
+		.pull-right;
+
+		a {
+			color:@builder-color;
+
+			&:hover {
+				color:lighten(@builder-color,10%);
+			}
+		}
+	}
 }
